@@ -8,10 +8,13 @@ public class Player{
     }
 
     public int getJugador() {
+
         return jugador;
+
     }
 
-    public Token getFicha() {
+    public Token getFicha()
+    {
         return ficha;
     }
 }
