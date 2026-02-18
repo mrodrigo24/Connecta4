@@ -28,8 +28,9 @@ public class Board {
         for (int i = fila-1; i <0  ; i--) {
             if(!matriz[i][columna].equals(simbolo)){
                 matriz[i][columna]=simbolo;
-                break;
+                return true;
             }
         }
+        return false;
     }
 }
