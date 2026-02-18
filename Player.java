@@ -1,15 +1,15 @@
 public class Player{
-    private int jugador;
+    private String nombre;
     private Token ficha;
 
-    public Player(int jugador, Token ficha){
-        this.jugador=jugador;
+    public Player(String nombre, Token ficha){
+        this.nombre=nombre;
         this.ficha=ficha;
     }
 
-    public int getJugador() {
+    public int getNombre() {
 
-        return jugador;
+        return nombre;
 
     }
 
